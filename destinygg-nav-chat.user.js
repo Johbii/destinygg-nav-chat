@@ -19,8 +19,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 @author         johbi
 @version        0.0.1
 @run-at         document-end
-@updateURL      https://github.com/PunishedJohbi/destinygg-nav-chat/raw/main/userscript.js
-@downloadURL    https://github.com/PunishedJohbi/destinygg-nav-chat/raw/main/userscript.js
+@updateURL      https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/destinygg-nav-chat.user.js
+@downloadURL    https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/destinygg-nav-chat.user.js
 ==/UserScript== */
 
 let navItem = document.createElement("li");
