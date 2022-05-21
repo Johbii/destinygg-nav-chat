@@ -11,17 +11,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 
-/* ==UserScript==
-@name           destiny.gg: Add popout chat to navbar
-@description    Add a navigation item to open popout chat on destiny.gg.
-@match          *://www.destiny.gg/*
-@exclude-match  *://www.destiny.gg/embed/*
-@author         johbi
-@version        0.0.1
-@run-at         document-end
-@updateURL      https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/destinygg-nav-chat.user.js
-@downloadURL    https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/destinygg-nav-chat.user.js
-==/UserScript== */
+// ==UserScript==
+// @name           destiny.gg: Add popout chat to navbar
+// @description    Add a navigation item to open popout chat on destiny.gg.
+// @match          *://www.destiny.gg/*
+// @exclude-match  *://www.destiny.gg/embed/*
+// @author         johbiii
+// @version        0.0.1
+// @run-at         document-end
+// @updateURL      https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/navchat.user.js
+// @downloadURL    https://raw.githubusercontent.com/johbiii/destinygg-nav-chat/main/navchat.user.js
+// ==/UserScript==
 
 let navItem = document.createElement("li");
 navItem.className = "nav-item";
